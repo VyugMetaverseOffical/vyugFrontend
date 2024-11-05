@@ -1,0 +1,176 @@
+
+.sdk {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    &__controls {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      width: 50vw;
+      height: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+      border-radius: 30px;
+      background: #e4eaff;
+      display: flex;
+      flex-direction: column;
+      margin-left: -40px;
+    }
+    &__scene {
+      display: flex;
+      flex: 1;
+    }
+  }
+  .assets {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 16px;
+    background: #ebedff;
+    border-radius: 20px;
+    min-height: 107px;
+    margin-top: 10px;
+    overflow-y: hidden;
+    &__item {
+      background: radial-gradient(#ffffff, #baeaff00);
+      box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0) 0px 30px 60px -30px,
+        hsl(229deg 100% 88.43% / 70%) 0px -2px 6px 0px inset;
+      min-width: 75px;
+      min-height: 73px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 1px solid #dcdeff;
+      margin-right: 15px;
+      & img {
+        width: 100%;
+        max-height: 75px;
+      }
+      & img:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .actions {
+    padding: 8px 16px 0px 16px;
+  }
+  
+  .sdk-test {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sdk-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .Toastify__toast-body {
+    white-space: pre-line;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-style: dashed;
+    background: bisque;
+    border-radius: 5px;
+    padding: 3px;
+    border-color: #b2b7c8;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .logger__list li pre {
+    font-family: 'Robotod', monospace;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .logger {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffffa8;
+    height: 47vh;
+    overflow-y: auto;
+    padding: 1rem;
+    font-family: monospace;
+    border-radius: 20px;
+    font-size: 11px;
+    flex: 1 auto;
+  }
+  
+  .logger__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .logger__list li {
+    padding-bottom: 0.2rem;
+    padding-top: 0.5rem;
+    border-width: 0px 0px 1px;
+    border-color: #cdcdcd;
+    border-style: solid;
+  }
+  
+  .logger-own {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    color: #fff;
+    max-height: 30vh;
+    overflow-y: auto;
+    padding: 1rem;
+    font-family: monospace;
+    width: 300px;
+    border-radius: 0 0 10px 0;
+    z-index: 1000;
+  }
+  
+  .logger-own--collapsed .logger__list {
+    display: none;
+  }
+  
+  .logger-own__toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9em;
+  }
+  
+  .logger-own__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .logger-own__list li {
+    padding-bottom: 0.2rem;
+    padding-top: 0.5rem;
+    border-width: 0px 0px 1px;
+    border-color: #cdcdcd;
+    border-style: solid;
+  }
+  
+  

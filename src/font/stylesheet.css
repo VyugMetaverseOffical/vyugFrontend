@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Transyl';
+    src: url('Transyl-Bold.eot');
+    src: url('Transyl-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Transyl-Bold.woff2') format('woff2'),
+        url('Transyl-Bold.woff') format('woff'),
+        url('Transyl-Bold.ttf') format('truetype'),
+        url('Transyl-Bold.svg#Transyl-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Transyl';
+    src: url('Transyl-Regular.eot');
+    src: url('Transyl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Transyl-Regular.woff2') format('woff2'),
+        url('Transyl-Regular.woff') format('woff'),
+        url('Transyl-Regular.ttf') format('truetype'),
+        url('Transyl-Regular.svg#Transyl-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Transyl';
+    src: url('Transyl-Italic.eot');
+    src: url('Transyl-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Transyl-Italic.woff2') format('woff2'),
+        url('Transyl-Italic.woff') format('woff'),
+        url('Transyl-Italic.ttf') format('truetype'),
+        url('Transyl-Italic.svg#Transyl-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Transyl';
+    src: url('Transyl-BoldItalic.eot');
+    src: url('Transyl-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Transyl-BoldItalic.woff2') format('woff2'),
+        url('Transyl-BoldItalic.woff') format('woff'),
+        url('Transyl-BoldItalic.ttf') format('truetype'),
+        url('Transyl-BoldItalic.svg#Transyl-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

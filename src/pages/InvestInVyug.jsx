@@ -15,6 +15,7 @@ import {
 } from "../lib/animations";
 import { Helmet } from "react-helmet-async";
 
+
 function InvestInVyug() {
   const videoRef = useRef(null);
   const [isMuted, setIsMuted] = useState(true);
